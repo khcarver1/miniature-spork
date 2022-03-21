@@ -16,6 +16,7 @@ header {
   position:sticky;
   position:-webkit-sticky;
   top:0px;
+  
 }
 header div h1 {
   font-size: 90px;
@@ -24,7 +25,7 @@ header div h1 {
   font-family: var(--page-font);
   padding-left: 10px;
   letter-spacing: 1px;
-  background-color: white;
+  background-color: white; 
 }
 header ul {
   display: flex;
@@ -33,6 +34,7 @@ header ul {
   overflow: hidden;
   background-color: var(--header-color);
   margin-top: 0px;
+  padding-left: 0;
 }
 header div ul li a {
   display: block;
@@ -164,6 +166,7 @@ header div ul li a:focus {
     #seemywork {
         display: flex;
         flex-direction: column;
+        height: 700px;
     }
     .showcase a img {
         width: 350px;
@@ -182,5 +185,5 @@ header div ul li a:focus {
 
     }
     /* contactme */
-    
+
 }
