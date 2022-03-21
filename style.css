@@ -13,6 +13,9 @@ body {
   margin: 0;
 }
 header {
+  position:sticky;
+  position:-webkit-sticky;
+  top:0px;
 }
 header div h1 {
   font-size: 90px;
@@ -56,40 +59,70 @@ header div ul li a:focus {
 .section-heading {
   text-align: center;
   font-family: var(--page-font);
-  font-size: 37px;
-  letter-spacing: 1px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  
 }
 .information-container {
   display: flex;
   justify-content: space-around;
   font-family: var(--page-font);
+  
 }
 .information-container img {
-    width: 400px;
-    border-radius: 20px;
+  width: 400px;
+  border-radius: 20px;
 }
 .box-content {
   text-align: center;
-  width: 50%;
+  width: 60%;
+  
 }
 .box-content h3 {
   font-size: 30px;
 }
 .box-content p {
+  font-size: 25px;
 }
 
-.experience-container {
-  height: 80vw;
-}
-.experience-container h2 {
-}
-.family-container {
-  height: 100vw;
+.aboutme-container {
+  padding-top: 50px;
+  height: 30vw;
 }
 
-.projects-container {
-  height: 100vw;
+
+.contact-container {
+  text-align: center;
+  font-family: var(--page-font);
+  font-size: 25px;
 }
+.contact-container a {
+  font-family: var(--page-font);
+  font-size: 25px;
+}
+
+/* See my work stuff */
+#seemywork {
+  height: 40vw;
+}
+.showcase {
+  text-align: center;
+}
+.examples-row {
+  display: flex;
+  justify-content: space-around;
+}
+.workexample img {
+    border-radius: 25px;
+}
+.showcase a img {
+    width: 600px; 
+  }
+.examples-row a img {
+  
+  width: 300px;
+}
+
 
 @media screen and (max-width: 768px) {
   header h1 {
