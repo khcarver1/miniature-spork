@@ -87,7 +87,7 @@ header div ul li a:focus {
 
 .aboutme-container {
   padding-top: 50px;
-  height: 30vw;
+  height: 500px;
 }
 
 
@@ -103,7 +103,8 @@ header div ul li a:focus {
 
 /* See my work stuff */
 #seemywork {
-  height: 40vw;
+  height: 600px;
+  
 }
 .showcase {
   text-align: center;
@@ -125,12 +126,61 @@ header div ul li a:focus {
 
 
 @media screen and (max-width: 768px) {
-  header h1 {
-    font-size: 10px;
+    header div h1 {
+        font-size: 35px;
+    }
+    .stickytest {
+        display: flex;
+    }
+    header div ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    header div ul li a {
+        font-size: 25px;
+    }
+    
+    .section-heading {
+        text-align: center;
+        font-family: var(--page-font);
+        font-size: 30px;
+        letter-spacing: 2px;
+      }
+
+    /* aboutme */
+    .aboutme-container {
+        height: 700px;
+        text-align: center;
+    }
+    .information-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .information-container img {
+      width: 200px;
   }
-  header ul li {
-    display: flex;
-    flex-wrap: wrap;
-    float: none;
-  }
+    /* seemywork */
+    #seemywork {
+        display: flex;
+        flex-direction: column;
+    }
+    .showcase a img {
+        width: 350px;
+    }
+    .examples-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .examples-row a img {
+        border-radius: 99999px;
+        width: 200px;
+    }
+    .showcase div a h4 {
+        text-decoration: none;
+        color: pink;
+
+    }
+    /* contactme */
+    
 }
