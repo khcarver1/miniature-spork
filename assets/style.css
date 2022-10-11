@@ -16,7 +16,6 @@ header {
   position:sticky;
   position:-webkit-sticky;
   top:0px;
-  
 }
 header div h1 {
   font-size: 90px;
@@ -47,29 +46,20 @@ header div ul li a {
   letter-spacing: 1px;
   width: 33vw;
 }
-
 header div ul li a:hover {
   background-color: var(--hover-color);
   color: var(--hover-font-color);
 }
-
-header div ul li a:focus {
-  background-color: var(--hover-color);
-  color: var(--header-color);
-}
-
 .section-heading {
   text-align: center;
   font-family: var(--page-font);
   font-size: 40px;
   letter-spacing: 2px;
-  
 }
 .information-container {
   display: flex;
   justify-content: space-around;
   font-family: var(--page-font);
-  
 }
 .information-container img {
   width: 400px;
@@ -78,7 +68,6 @@ header div ul li a:focus {
 .box-content {
   text-align: center;
   width: 60%;
-  
 }
 .box-content h3 {
   font-size: 30px;
@@ -86,13 +75,10 @@ header div ul li a:focus {
 .box-content p {
   font-size: 25px;
 }
-
 .aboutme-container {
   padding-top: 50px;
   height: 500px;
 }
-
-
 .contact-container {
   text-align: center;
   font-family: var(--page-font);
@@ -102,11 +88,9 @@ header div ul li a:focus {
   font-family: var(--page-font);
   font-size: 25px;
 }
-
 /* See my work stuff */
 #seemywork {
   height: 600px;
-  
 }
 .showcase {
   text-align: center;
@@ -116,45 +100,50 @@ header div ul li a:focus {
   justify-content: space-around;
 }
 .workexample img {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 .showcase a img {
-    width: 600px; 
-  }
+  width: 600px; 
+}
 .examples-row a img {
-  
   width: 300px;
 }
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
     
     header div h1 {
-        font-size: 35px;
+      font-size: 35px;
     }
-    .stickytest {
-        display: flex;
+    .nav-btn {
+      display: flex;
     }
     header div ul {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
     }
     header div ul li a {
-        font-size: 25px;
+      font-size: 25px;
     }
-    
     .section-heading {
-        text-align: center;
-        font-family: var(--page-font);
-        font-size: 30px;
-        letter-spacing: 2px;
-      }
-
+      text-align: center;
+      font-family: var(--page-font);
+      font-size: 30px;
+      letter-spacing: 2px;
+    }
     /* aboutme */
     .aboutme-container {
-        height: 700px;
-        text-align: center;
+      height: 700px;
+      text-align: center;
     }
     .information-container {
       flex-direction: column;
@@ -162,29 +151,26 @@ header div ul li a:focus {
     }
     .information-container img {
       width: 200px;
-  }
+    }
     /* seemywork */
     #seemywork {
-        display: flex;
-        flex-direction: column;
-        height: 700px;
+      display: flex;
+      flex-direction: column;
+      height: 700px;
     }
     .showcase a img {
-        width: 350px;
+      width: 350px;
     }
     .examples-row {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
     .examples-row a img {
-        border-radius: 99999px;
-        width: 200px;
+      border-radius: 99999px;
+      width: 200px;
     }
     .showcase div a h4 {
-        text-decoration: none;
-        color: pink;
-
+      text-decoration: none;
+      color: pink;
     }
-    /* contactme */
-
 }
